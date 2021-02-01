@@ -8,14 +8,44 @@
  */
 body {
     margin: 0px;
-    background-image: linear-gradient(#010F1D, #031C35);
+    background-image: linear-gradient(#000000, #0f559b);
     color: white;
     width: 100%;
     height: 100%;
 }
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2em;
+}
 
-footer > a > img {
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
+.header-container  {
+    text-align: center;
+}
+.header-container > p {
+    font-size: 20px;
+    margin-bottom: 5em;
+}
+.section-container article{
+    margin-bottom: 70px;
+}
+.section-container article > a{
+    color: #CD9A00;
+}
+.section-container article > img {
+    width: 700px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+h1 {
+    font-size: 60px;
+    color: #CD9A00;
+    -webkit-text-stroke: 2px white;
+}
+h3 {
+    font-size: 30px;
+}
+.section-container {
+    margin-left: 10em;
 }

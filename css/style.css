@@ -38,7 +38,14 @@ p {
     border-radius: 10px;
     border: 2px solid white;
 }
-.section-container article:first-child h3:first-child {
+.section-container article:first-child {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50em;
+    border-radius: 20px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 70px;
     
 }
 .section-container article:first-child h3:first-child:hover {
@@ -59,5 +66,27 @@ h3 {
     font-size: 30px;
 }
 .section-container {
+    margin-bottom: 10em;
+}
+.section-container > article{
     margin-left: 10em;
+}
+.footer-container {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    height: 4em;
+    padding-top: 30px;
+    justify-content:space-around;
+    
+}
+.footer-container > a {
+    color: white;
+    text-decoration: none;
+}
+.footer-container a > img {
+    width: 35PX;
+    height: 35PX;
+    border-radius: 50%;
+    
 }
